@@ -19,24 +19,7 @@ import javax.xml.ws.ResponseWrapper;
 public interface BPELSoap {
 
    
-    /**
-     * Obtiene Alarmas ONT por IP
-     */
-    @WebMethod(operationName = "BPELGetAllPortAlarmByIp", action = "http://tempuri.org/BPELGetAllPortAlarmByIp")
-    @RequestWrapper(localName = "BPELGetAllPortAlarmByIp", targetNamespace = "http://tempuri.org/", className = "org.tempuri.BPELGetAllPortAlarmByIp")
-    @ResponseWrapper(localName = "BPELGetAllPortAlarmByIpResponse", targetNamespace = "http://tempuri.org/", className = "org.tempuri.BPELGetAllPortAlarmByIpResponse")
-    @WebResult(name = "BPELGetAllPortAlarmByIpResult", targetNamespace = "http://tempuri.org/")
-    public com.totalplay.alarmtype.tprovisioningux.ArrayOfONTAlarm bpelGetAllPortAlarmByIp(
-
-        @WebParam(name = "Frame", targetNamespace = "http://tempuri.org/")
-        int frame,
-        @WebParam(name = "Slot", targetNamespace = "http://tempuri.org/")
-        int slot,
-        @WebParam(name = "Port", targetNamespace = "http://tempuri.org/")
-        int port,
-        @WebParam(name = "IPOLT", targetNamespace = "http://tempuri.org/")
-        java.lang.String ipolt
-    );
+  
 
     /**
      * Obtiene Alarmas ONT por IP

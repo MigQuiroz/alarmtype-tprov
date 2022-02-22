@@ -29,56 +29,5 @@ public class ObjectFactory {
     public ObjectFactory() {
     }
 
-    /**
-     * Create an instance of {@link BPELGetAllPortAlarmByIp }
-     * 
-     */
-    public BPELGetAllPortAlarmByIp createBPELGetAllPortAlarmByIp() {
-        return new BPELGetAllPortAlarmByIp();
-    }
-
-    /**
-     * Create an instance of {@link BPELGetAllPortAlarmByIpResponse }
-     * 
-     */
-    public BPELGetAllPortAlarmByIpResponse createBPELGetAllPortAlarmByIpResponse() {
-        return new BPELGetAllPortAlarmByIpResponse();
-    }
-
-    /**
-     * Create an instance of {@link ArrayOfONTAlarm }
-     * 
-     */
-    public ArrayOfONTAlarm createArrayOfONTAlarm() {
-        return new ArrayOfONTAlarm();
-    }
-
-    /**
-     * Create an instance of {@link BPELGetPersonalAlarm }
-     * 
-     */
-    public BPELGetPersonalAlarm createBPELGetPersonalAlarm() {
-        return new BPELGetPersonalAlarm();
-    }
-
-    /**
-     * Create an instance of {@link BPELGetPersonalAlarmResponse }
-     * 
-     */
-    public BPELGetPersonalAlarmResponse createBPELGetPersonalAlarmResponse() {
-        return new BPELGetPersonalAlarmResponse();
-    }
-
-    
-
-    /**
-     * Create an instance of {@link ONTAlarm }
-     * 
-     */
-    public ONTAlarm createONTAlarm() {
-        return new ONTAlarm();
-    }
-
-   
 
 }
